@@ -21,14 +21,21 @@ main {
 }
 
 .cameras{
-  display: inline-block;
+  display: flex;
   flex-wrap: wrap;
   position: relative;
-  margin: 30px 80px ;
+  /* margin: 30px 80px ; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .participant{
   position: relative;
+  /* width: calc(100vw / 7);
+  height: calc(100vh / 5); */
+  margin: 6px 14px;
+
 }
 
 .participant img{
