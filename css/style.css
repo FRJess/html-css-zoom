@@ -60,3 +60,36 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+
+footer nav ul{
+  list-style: none;
+  display: inline-block ;
+  padding: 10px;
+}
+
+footer nav ul li{
+  display: inline-block ;
+  text-decoration: none;
+}
+
+footer nav ul li i{
+  vertical-align: middle;
+  font-size: 40px;
+}
+
+footer nav ul li i span{
+  display: inline-block
+}
+
+footer button{
+  height: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+footer button:active{
+  background-color: #4A4A4A;
+  border: none;
+  color: red;
+}
