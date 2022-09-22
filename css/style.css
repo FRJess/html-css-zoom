@@ -70,11 +70,12 @@ footer nav ul{
 footer nav ul li{
   display: inline-block ;
   text-decoration: none;
+  margin-left: 25px;
 }
 
 footer nav ul li i{
   vertical-align: middle;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 footer nav ul li i span{
@@ -88,8 +89,19 @@ footer button{
   border: none;
 }
 
+footer .more::after{
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 600;
+  content:"\f077";
+  margin-left: 15px;
+}
+
 footer button:active{
   background-color: #4A4A4A;
   border: none;
   color: red;
+}
+
+footer .active{
+  color: #4ED000;
 }
