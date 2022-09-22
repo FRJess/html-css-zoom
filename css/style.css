@@ -18,7 +18,7 @@ header{
 
 header .top-menu{
   position: fixed;
-  top: 2px;
+  top: 4px;
   right: 2px;
 }
 
@@ -26,6 +26,12 @@ header .top-menu button{
   background-color: #4A4A4A;
   border: none;
   color: white;
+  margin-left: 5px;
+  border-radius: 5%;
+}
+
+header .top-menu button i{
+  margin-right: 5px;
 }
 
 main {
