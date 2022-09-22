@@ -89,7 +89,6 @@ margin-top: 10px;
 
 footer nav ul{
   list-style: none;
-  display: inline-block ;
   padding: 10px;
 }
 
@@ -97,6 +96,8 @@ footer nav ul li{
   display: inline-block ;
   text-decoration: none;
   margin-left: 25px;
+  justify-content: center;
+  text-align: center;
 }
 
 footer nav ul li i{
@@ -116,7 +117,7 @@ footer button{
   border: none;
 }
 
-footer .more::after{
+footer li .more::after{
   font-family: 'Font Awesome\ 5 Free';
   font-weight: 600;
   content:"\f077";
