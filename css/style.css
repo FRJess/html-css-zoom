@@ -30,7 +30,11 @@ header .top-menu button{
   border: none;
   color: white;
   margin-left: 5px;
+  padding: 5px 5px;
   border-radius: 5%;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
 }
 
 header .top-menu button i{
@@ -102,6 +106,7 @@ footer nav ul li{
   justify-content: center;
   text-align: center;
   position: relative;
+  cursor: pointer;
 }
 
 footer nav ul li .icon{
@@ -117,6 +122,7 @@ footer button{
   background-color: black;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 footer .more::after{
@@ -130,7 +136,6 @@ footer .more::after{
   border-style: none;
   display: block;
   width: 0;
-
 }
 
 footer button:active{
