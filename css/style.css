@@ -11,7 +11,21 @@ body{
 
 header{
   height: 60px;
+  min-height: 60px;
   background-color: black;
+
+}
+
+header .top-menu{
+  position: fixed;
+  top: 2px;
+  right: 2px;
+}
+
+header .top-menu button{
+  background-color: #4A4A4A;
+  border: none;
+  color: white;
 }
 
 main {
@@ -55,10 +69,16 @@ main {
 
 footer{
   height: 80px;
+  min-height: 80px;
   background-color: black;
   color: white;
   display: flex;
   justify-content: space-between;
+  text-align: center;
+}
+
+footer .menu-center, footer .menu-left{
+margin-top: 10px;
 }
 
 footer nav ul{
@@ -84,6 +104,7 @@ footer nav ul li i span{
 
 footer button{
   height: 100%;
+  width: 8vw;
   background-color: black;
   color: white;
   border: none;
