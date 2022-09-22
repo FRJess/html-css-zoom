@@ -59,7 +59,6 @@ main .cameras{
   /* width: calc(100vw / 7);
   height: calc(100vh / 5); */
   margin: 6px 14px;
-
 }
 
 .participant img{
@@ -76,6 +75,8 @@ main .cameras{
   background-color: rgba(0, 0, 0, .4);
   padding: 5px;
 }
+
+/* FOOTER */
 
 footer{
   height: 80px;
@@ -102,12 +103,14 @@ footer nav ul li{
   margin-left: 25px;
   justify-content: center;
   text-align: center;
+  position: relative;
 }
 
 footer nav ul li .icon{
   vertical-align: middle;
   font-size: 25px;
   margin-bottom: 10px;
+  display: inline-block;
 }
 
 footer button{
@@ -118,11 +121,18 @@ footer button{
   border: none;
 }
 
-footer li .more::after{
+footer .more::after{
   font-family: 'Font Awesome\ 5 Free';
   font-weight: 600;
   content:"\f077";
   margin-left: 15px;
+  position: absolute;
+  top: 10px;
+  right: -2px;
+  border-style: none;
+  display: block;
+  width: 0;
+
 }
 
 footer button:active{
